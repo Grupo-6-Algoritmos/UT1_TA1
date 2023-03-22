@@ -1,0 +1,28 @@
+Ejericio 2)
+Parte 2)
+Al usar construcciones de este tipo, primero se hacen las operaciones, en este caso se le suma uno a i
+y despues se le suma el valor de i a la variable a. 
+
+	int a = 5;
+        int i = 3;
+        a += ++i;
+
+
+
+Ejercicio 3)
+Identifique los tipos de las siguientes sentencias:
+1. aValue = 8933.234; // Opcion b - asignación
+2. aValue++; // Opcion a - incremento
+3. System.out.println("Hello World!"); // Opcion d - invocación de método
+4. Bicycle myBike = new Bicycle(); // Opcion c - creación de objeto
+a) Incremento
+b) Asignación
+c) Creación de objeto
+d) Invocación de método
+
+Ejercicio 4)
+a)La salida va a ser "second string" y "third string".
+b)La salida es "second string" y "third string" porque el if sin corchetes solo
+ejecuta la primera linea de codigo que viene despues, que en este caso es otro if.
+En este caso la condición no se cumple y salta al else e imprime "second string". Al seguir
+con la ejecución imprime "third string"
